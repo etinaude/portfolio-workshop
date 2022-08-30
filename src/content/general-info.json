@@ -1,0 +1,23 @@
+{
+  "firstName": "Etienne",
+  "lastName": "Naude",
+  "heroImage": "thoughtfulImg_qd1fsv.webp",
+  "tagLine": "Software and Design",
+  "contacts": [
+    {
+      "type": "Email",
+      "displayText": "eti@naude.dev",
+      "url": "mailto:eti@naude.dev"
+    },
+    {
+      "type": "linkedIn",
+      "displayText": "linkedin.com/in/etinaude/",
+      "url": "https://www.linkedin.com/in/etinaude/"
+    },
+    {
+      "type": "GitHub",
+      "displayText": "github.com/etinaude",
+      "url": "https://github.com/etinaude"
+    }
+  ]
+}
