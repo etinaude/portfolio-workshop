@@ -1,0 +1,74 @@
+<script context="module" lang="ts">
+  export const prerender = true;
+</script>
+
+<script lang="ts">
+  import Card from "$lib/card.svelte";
+  import projectsImport from "../content/projects.json";
+  import info from "../content/general-info.json";
+  import experience from "../content/experience.json";
+
+  const projects = projectsImport.slice(0, 3);
+</script>
+
+<svelte:head>
+  <title>{info.firstName} {info.lastName}</title>
+</svelte:head>
+
+<section
+  id="about"
+  style="--imageUrl: url({'src/content/images/' + info.heroImage});"
+>
+  <div class="header-text">
+    <h1>{info.firstName} {info.lastName}</h1>
+    <h2>{info.tagLine}</h2>
+  </div>
+</section>
+
+<section id="projects">
+  <h2>Projects</h2>
+
+  <div class="flex-row">
+    {#each projects as project}
+      <Card
+        title={project.title}
+        description={project.description}
+        image_url={project.image_url}
+        follow_url={project.follow_url}
+      />
+    {/each}
+  </div>
+
+  <a class="button more-projects-btn" href="/projects"> More Projects →</a>
+</section>
+
+<section id="work">
+  <h2>Current Work</h2>
+</section>
+
+<section id="awards">
+  <h2>Experince</h2>
+
+  <div class="flex-row">
+    {#each experience as experience}
+      <Card
+        title={experience.title}
+        description={experience.description}
+        image_url={experience.image_url}
+        follow_url={experience.follow_url}
+      />
+    {/each}
+  </div>
+</section>
+
+<section id="cta">
+  <h1>Contact Me</h1>
+
+  <div class="contacts">
+    {#each info.contacts as contact}
+      <p>
+        {contact.type}: <a href={contact.url}>{contact.displayText}</a>
+      </p>
+    {/each}
+  </div>
+</section>
