@@ -61,6 +61,26 @@
 
 <style lang="scss">
   @import "../content/theme.scss";
+
+  #about {
+    background: linear-gradient(150deg, var(--text-color), var(--accent-tint-color), var(--background-color));
+    background-size: 380% 380%;
+    animation: gradient 13s ease infinite;
+    height: 100vh;
+
+    @keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+  }
+
   .header-text {
     display: flex;
     gap: calc(1rem + 10vmax);
