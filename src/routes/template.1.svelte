@@ -20,7 +20,7 @@
 
 <section
   id="about"
-  style="--imageUrl: url({'src/content/images/' + info.heroImage});"
+  style="--imageUrl: url({'images/' + info.heroImage});"
 >
   <div class="header-text">
     <h1>{info.firstName} {info.lastName}</h1>
