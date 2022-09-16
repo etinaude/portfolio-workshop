@@ -33,6 +33,13 @@ jobs:
 
       - name: 🛠️ Build
         run: npm run build
+        env:
+          # Tell Svelte that it'll be hosted in the /portfolio-workshop folder.
+          # Remove this if hosting at the domain root.
+          SVELTE_BASE_PATH: /${{ github.event.repository.name }}
+
+      - name: Disable default Jekyll integration
+        run: touch ./build/.nojekyll
 
       - name: 🚀 Deploy to GitHub Pages
         if: github.ref == 'refs/heads/main'
