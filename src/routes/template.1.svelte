@@ -3,6 +3,8 @@
 </script>
 
 <script lang="ts">
+  import { assets, base } from '$app/paths';
+
   import Card from "$lib/card.svelte";
   import projectsImport from "../content/projects.json";
   import info from "../content/general-info.json";
@@ -20,7 +22,7 @@
 
 <section
   id="about"
-  style="--imageUrl: url({'images/' + info.heroImage});"
+  style="--imageUrl: url({`${assets}/images/${info.heroImage}`});"
 >
   <div class="header-text">
     <h1>{info.firstName} {info.lastName}</h1>
@@ -42,7 +44,7 @@
     {/each}
   </div>
 
-  <a class="button more-projects-btn" href="/projects"> More Projects →</a>
+  <a class="button more-projects-btn" href={`${base}/projects`}> More Projects →</a>
 </section>
 
 <section id="work">
