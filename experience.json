@@ -1,0 +1,14 @@
+[
+  {
+    "title": "Computer Science & Design",
+    "description": "I am a fourth year Computer Science and Design student at the University of Auckland",
+    "image_url": "armImg_hpusqb.webp",
+    "follow_url": "https://github.com/etinaude/sandtable"
+  },
+  {
+    "title": "Headstrong Messenger",
+    "description": "I am part of a research team which created an interactive Ionic chatbot app to help struggling teen with depression and anxiety. I am currently heading front end development for this project, using Ionic and Angular.",
+    "image_url": "headstrongImg_wv4vdq.webp",
+    "follow_url": "https://appadvice.com/app/habits-messenger/1550723158"
+  }
+]
