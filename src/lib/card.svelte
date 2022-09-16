@@ -1,4 +1,6 @@
 <script lang="ts">
+  import { assets } from '$app/paths';
+
   export let title: string;
   export let description: string;
   export let image_url: string;
@@ -11,7 +13,7 @@
 <div class="card tilt {small == 'true' ? 'small' : ''}">
   <a href={follow_url} target="_blank" rel="noopener">
     <div class="img">
-      <img src={"images/" + image_url} alt="project" />
+      <img src={`${assets}/images/${image_url}`} alt="project" />
     </div>
 
     <h3>{title}</h3>

@@ -1,4 +1,6 @@
 <script lang="ts">
+  import { assets } from '$app/paths';
+
   export let title: string;
   export let description: string;
   export let image_url: string;
@@ -10,7 +12,7 @@
   <a class="inner" href={follow_url} target="_blank" rel="noopener">
     <div class="front">
       <div class="img">
-        <img src={"images/" + image_url} alt="project" />
+        <img src={`${assets}/images/${image_url}`} alt="project" />
       </div>
     </div>
 
