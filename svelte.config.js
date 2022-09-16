@@ -13,6 +13,8 @@ const config = {
 	kit: {
 		adapter: adapter(),
 
+		files: { assets: 'src/content' },
+
 		// Override http methods in the Todo forms
 		methodOverride: {
 			allowed: ['PATCH', 'DELETE']

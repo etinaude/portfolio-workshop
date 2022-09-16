@@ -11,7 +11,7 @@
 <div class="card tilt {small == 'true' ? 'small' : ''}">
   <a href={follow_url} target="_blank" rel="noopener">
     <div class="img">
-      <img src={"src/content/images/" + image_url} alt="project" />
+      <img src={"images/" + image_url} alt="project" />
     </div>
 
     <h3>{title}</h3>
