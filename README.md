@@ -1,6 +1,47 @@
 # Portfolio Workshop
 
-## This is code for a portfolio website workshop
+Portfolio workshop run by Google Student Developer Club at the University of Auckland.
+
+## 🚗 Install
+
+Install Node.js and npm.
+
+Install the dependencies:
+
+```bash
+npm install
+```
+
+## 👟 Run
+
+rename one of the `templateX.svelte` files in `src/routes/` to `index.svelte`
+
+eg `template1.svelte` >> `index.svelte`
+
+Then run:
+
+```bash
+npm run dev
+```
+
+## 🛩️ Templates
+
+### Testing templates
+
+You can test your content in different templates by adding the template number to the end of the url.
+
+eg [localhost:3000/template1](localhost:3000/template1)
+
+### Content
+
+All the content for your portfolio is in `src/content`
+
+The `.json` files allow you to edit the text eg, your name, your projects, your skills, etc.
+The `theme.scss` file lets you to edit the colours and styles of your portfolio.
+The `images` folder is where you add images to your portfolio. (linked in the `.json` files)
+
+All the code is provided so you can also edit the templates to make them your own.🙂
+
 ### Template 1
 
 ![Template 3](./resources/template1.gif)
