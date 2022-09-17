@@ -60,11 +60,28 @@ All the code is provided so you can also edit the templates to make them your ow
 1. Under `Build and deployment`, select `Deploy from a branch` and the branch should be `gh-pages`.
 1. Check that your website is deployed at `https://<YOUR USERNAME>.github.io/portfolio-workshop`!
 
-#### How it works
+### How it works
 
-Using [GitHub Actions](https://github.com/features/actions), we create an action that automatically runs every time a change is pushed to the `main` branch. The config file for the action is at [`.github/workflows/github-pages.yml`](.github/workflows/github-pages.yml), and  you can see that it has four main steps:
+Using [GitHub Actions](https://github.com/features/actions), we create an action that automatically runs every time a change is pushed to the `main` branch. The config file for the action is at [`.github/workflows/github-pages.yml`](.github/workflows/github-pages.yml), and you can see that it has four main steps:
 
 1. Checkout the git repo.
 1. Install Node & project dependencies.
 1. Build the project.
 1. Deploy to GitHub Pages.
+
+## 🛥️ Socials
+
+### Developers
+
+|           | Etienne Naude                           | Matt Moran                                          | Eugene Chua                           | Flynn Fromont                             |
+| --------- | --------------------------------------- | --------------------------------------------------- | ------------------------------------- | ----------------------------------------- |
+| Portfolio | [etinaude.dev](https://etinaude.dev)    | [mattm.nz](https://mattm.nz/)                       | [echua.top](https://echua.top)        |                                           |
+| GitHub    | [etinaude](https://github.com/etinaude) | [DarkMatterMatt](https://github.com/DarkMatterMatt) | [luorixo](https://github.com/luorixo) | [f-fromont](https://github.com/f-fromont) |
+
+### GSDC
+
+| Link      | <img width="100px" src="./resources/gdsc%20logo.webp">         |
+| --------- | -------------------------------------------------------------- |
+| Discord   | [W6QtB3Sm2U](https://discord.gg/W6QtB3Sm2U)                    |
+| Instagram | [@gdsc.uoa](https://www.instagram.com/gdsc.uoa/)               |
+| Website   | [GSDC](https://gdsc.community.dev/the-university-of-auckland/) |
