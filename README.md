@@ -1,10 +1,19 @@
 # Portfolio Workshop
 
 ## This is code for a portfolio website workshop
+### Template 1
 
-TODO
+![Template 3](./resources/template1.gif)
 
-### 🚀 Hosting with GitHub Pages
+### Template 2
+
+![Template 3](./resources/template2.gif)
+
+### Template 3
+
+![Template 3](./resources/template3.gif)
+
+## 🚀 Hosting with GitHub Pages
 
 1. Go to `https://github.com/<YOUR USERNAME>/portfolio-workshop/settings/pages`.
 1. Under `Build and deployment`, select `Deploy from a branch` and the branch should be `gh-pages`.
