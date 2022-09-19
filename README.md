@@ -73,10 +73,10 @@ Using [GitHub Actions](https://github.com/features/actions), we create an action
 
 ### Developers
 
-|           | Etienne Naude                           | Matt Moran                                          | Eugene Chua                           | Flynn Fromont                             |
-| --------- | --------------------------------------- | --------------------------------------------------- | ------------------------------------- | ----------------------------------------- |
-| Portfolio | [etinaude.dev](https://etinaude.dev)    | [mattm.nz](https://mattm.nz/)                       | [echua.top](https://echua.top)        |                                           |
-| GitHub    | [etinaude](https://github.com/etinaude) | [DarkMatterMatt](https://github.com/DarkMatterMatt) | [luorixo](https://github.com/luorixo) | [f-fromont](https://github.com/f-fromont) |
+|           | Etienne Naude                           | Matt Moran                                          | Eugene Chua                           | Hiruna Jayamanne                      |
+| --------- | --------------------------------------- | --------------------------------------------------- | ------------------------------------- | ------------------------------------- |
+| Portfolio | [etinaude.dev](https://etinaude.dev)    | [mattm.nz](https://mattm.nz/)                       | [echua.top](https://echua.top)        | [hiru.dev/](https://hiru.dev/)        |
+| GitHub    | [etinaude](https://github.com/etinaude) | [DarkMatterMatt](https://github.com/DarkMatterMatt) | [luorixo](https://github.com/luorixo) | [HiruNya](https://github.com/HiruNya) |
 
 ### GSDC
 
