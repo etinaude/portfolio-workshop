@@ -10,7 +10,7 @@
     <ul>
       {#each Object.entries(entries) as [entryKey, entryValue]}
         <li class:active={$page.url.pathname === base + entryValue}>
-          <a sveltekit:prefetch href={entryValue}>{entryKey}</a>
+          <a sveltekit:prefetch href={base + entryValue}>{entryKey}</a>
         </li>
       {/each}
     </ul>
