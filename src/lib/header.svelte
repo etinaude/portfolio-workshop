@@ -1,22 +1,18 @@
 <script lang="ts">
   import { base } from '$app/paths';
   import { page } from "$app/stores";
+
+  export let entries = {"Home": '', "Projects": '/projects', "Contact": '#cta'};
 </script>
 
 <header>
   <nav>
     <ul>
-      <li class:active={$page.url.pathname === base}>
-        <a sveltekit:prefetch href={base}>Home</a>
-      </li>
-
-      <li class:active={$page.url.pathname === `${base}/projects`}>
-        <a sveltekit:prefetch href={`${base}/projects`}>Projects</a>
-      </li>
-
-      <li class:active={$page.url.pathname === `${base}/contact`}>
-        <a href={`${base}#cta`}>Contact</a>
-      </li>
+      {#each Object.entries(entries) as [entryKey, entryValue]}
+        <li class:active={$page.url.pathname === base + entryValue}>
+          <a sveltekit:prefetch href={entryValue}>{entryKey}</a>
+        </li>
+      {/each}
     </ul>
   </nav>
 </header>
