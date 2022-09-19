@@ -1,10 +1,10 @@
 {
   ".svelte-kit/runtime/client/start.js": {
-    "file": "start-fa6b7545.js",
+    "file": "start-ddea4801.js",
     "src": ".svelte-kit/runtime/client/start.js",
     "isEntry": true,
     "imports": [
-      "_index-92502c41.js",
+      "_index-9b5a530b.js",
       "_paths-396f020f.js"
     ],
     "dynamicImports": [
@@ -12,17 +12,19 @@
       "src/routes/__error.svelte",
       "src/routes/index.svelte",
       "src/routes/projects.svelte",
-      "src/routes/template.1.svelte",
-      "src/routes/template2.svelte"
+      "src/routes/template1.svelte",
+      "src/routes/template2.svelte",
+      "src/routes/template3.svelte",
+      "src/routes/template4.svelte"
     ]
   },
   "src/routes/__layout.svelte": {
-    "file": "pages/__layout.svelte-2c4b448a.js",
+    "file": "pages/__layout.svelte-1b6a843e.js",
     "src": "src/routes/__layout.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
-      "_index-92502c41.js"
+      "_index-9b5a530b.js"
     ],
     "css": [
       "assets/pages/__layout.svelte-aa1d323d.css"
@@ -38,12 +40,12 @@
     ]
   },
   "src/routes/__error.svelte": {
-    "file": "pages/__error.svelte-c6b8b098.js",
+    "file": "pages/__error.svelte-d309dc2c.js",
     "src": "src/routes/__error.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
-      "_index-92502c41.js",
+      "_index-9b5a530b.js",
       "_paths-396f020f.js"
     ],
     "css": [
@@ -51,61 +53,52 @@
     ]
   },
   "src/routes/index.svelte": {
-    "file": "pages/index.svelte-44744774.js",
+    "file": "pages/index.svelte-8b996348.js",
     "src": "src/routes/index.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
-      "_index-92502c41.js",
-      "_flipCard-b5b6035a.js",
-      "_projects-c4100f22.js",
-      "_general-info-a55be06f.js",
-      "_paths-396f020f.js"
-    ],
-    "css": [
-      "assets/pages/index.svelte-4f071788.css"
+      "_index-9b5a530b.js"
     ]
   },
   "src/routes/projects.svelte": {
-    "file": "pages/projects.svelte-eade761d.js",
+    "file": "pages/projects.svelte-ef1aaef9.js",
     "src": "src/routes/projects.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
-      "_index-92502c41.js",
-      "_card-58fc12cb.js",
-      "_projects-c4100f22.js",
+      "_index-9b5a530b.js",
+      "_card-7afd46f8.js",
+      "_projects-692318b4.js",
       "_paths-396f020f.js"
     ],
     "css": [
       "assets/pages/projects.svelte-24d92f04.css"
     ]
   },
-  "src/routes/template.1.svelte": {
-    "file": "pages/template.1.svelte-bed856b3.js",
-    "src": "src/routes/template.1.svelte",
+  "src/routes/template1.svelte": {
+    "file": "pages/template1.svelte-23577885.js",
+    "src": "src/routes/template1.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
-      "_index-92502c41.js",
+      "_index-9b5a530b.js",
       "_paths-396f020f.js",
-      "_card-58fc12cb.js",
-      "_projects-c4100f22.js",
-      "_general-info-a55be06f.js"
-    ],
-    "css": [
-      "assets/pages/template.1.svelte-817fe262.css"
+      "_card-7afd46f8.js",
+      "_projects-692318b4.js",
+      "_general-info-a55be06f.js",
+      "_header-882a2936.js"
     ]
   },
   "src/routes/template2.svelte": {
-    "file": "pages/template2.svelte-aabfe780.js",
+    "file": "pages/template2.svelte-b3428508.js",
     "src": "src/routes/template2.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
-      "_index-92502c41.js",
-      "_flipCard-b5b6035a.js",
-      "_projects-c4100f22.js",
+      "_index-9b5a530b.js",
+      "_flipCard-c28428fd.js",
+      "_projects-692318b4.js",
       "_general-info-a55be06f.js",
       "_paths-396f020f.js"
     ],
@@ -113,36 +106,79 @@
       "assets/pages/template2.svelte-de91f9b3.css"
     ]
   },
-  "_index-92502c41.js": {
-    "file": "chunks/index-92502c41.js"
+  "src/routes/template3.svelte": {
+    "file": "pages/template3.svelte-654fdd17.js",
+    "src": "src/routes/template3.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-9b5a530b.js",
+      "_flipCard-c28428fd.js",
+      "_projects-692318b4.js",
+      "_general-info-a55be06f.js",
+      "_paths-396f020f.js"
+    ],
+    "css": [
+      "assets/pages/template3.svelte-48269636.css"
+    ]
+  },
+  "src/routes/template4.svelte": {
+    "file": "pages/template4.svelte-ae220629.js",
+    "src": "src/routes/template4.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-9b5a530b.js",
+      "_paths-396f020f.js",
+      "_header-882a2936.js",
+      "_card-7afd46f8.js",
+      "_projects-692318b4.js",
+      "_general-info-a55be06f.js"
+    ],
+    "css": [
+      "assets/pages/template4.svelte-05581001.css"
+    ]
+  },
+  "_index-9b5a530b.js": {
+    "file": "chunks/index-9b5a530b.js"
   },
   "_paths-396f020f.js": {
     "file": "chunks/paths-396f020f.js"
   },
-  "_flipCard-b5b6035a.js": {
-    "file": "chunks/flipCard-b5b6035a.js",
+  "_card-7afd46f8.js": {
+    "file": "chunks/card-7afd46f8.js",
     "imports": [
-      "_index-92502c41.js",
-      "_paths-396f020f.js"
-    ],
-    "css": [
-      "assets/flipCard-c50986fa.css"
-    ]
-  },
-  "_projects-c4100f22.js": {
-    "file": "chunks/projects-c4100f22.js"
-  },
-  "_general-info-a55be06f.js": {
-    "file": "chunks/general-info-a55be06f.js"
-  },
-  "_card-58fc12cb.js": {
-    "file": "chunks/card-58fc12cb.js",
-    "imports": [
-      "_index-92502c41.js",
+      "_index-9b5a530b.js",
       "_paths-396f020f.js"
     ],
     "css": [
       "assets/card-a81d9849.css"
+    ]
+  },
+  "_projects-692318b4.js": {
+    "file": "chunks/projects-692318b4.js"
+  },
+  "_general-info-a55be06f.js": {
+    "file": "chunks/general-info-a55be06f.js"
+  },
+  "_header-882a2936.js": {
+    "file": "chunks/header-882a2936.js",
+    "imports": [
+      "_index-9b5a530b.js",
+      "_paths-396f020f.js"
+    ],
+    "css": [
+      "assets/header-df614f84.css"
+    ]
+  },
+  "_flipCard-c28428fd.js": {
+    "file": "chunks/flipCard-c28428fd.js",
+    "imports": [
+      "_index-9b5a530b.js",
+      "_paths-396f020f.js"
+    ],
+    "css": [
+      "assets/flipCard-c50986fa.css"
     ]
   }
 }
