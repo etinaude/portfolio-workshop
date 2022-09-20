@@ -6,9 +6,9 @@
   import { assets, base } from '$app/paths';
 
   import Card from "$lib/card.svelte";
-  import projectsImport from "../content/projects.json";
-  import info from "../content/general-info.json";
-  import experience from "../content/experience.json";
+  import projectsImport from "$lib/../content/projects.json";
+  import info from "$lib/../content/general-info.json";
+  import experience from "$lib/../content/experience.json";
   import Header from "$lib/header.svelte";
 
   const projects = projectsImport.slice(0, 3);
@@ -18,7 +18,7 @@
   <title>{info.firstName} {info.lastName}</title>
 </svelte:head>
 
-<Header />
+<Header entries={{ "Home": "#about", "Projects": "#projects", "Experience": "#awards", "Contact": "#cta" }} />
 
 <section
   id="about"
@@ -52,7 +52,7 @@
 </section>
 
 <section id="awards">
-  <h2>Experince</h2>
+  <h2>Experience</h2>
 
   <div class="flex-row">
     {#each experience as experience}
