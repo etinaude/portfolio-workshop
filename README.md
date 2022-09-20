@@ -79,7 +79,7 @@ Using [GitHub Actions](https://github.com/features/actions), we create an action
 
 |           | Etienne Naude                           | Matt Moran                                          | Eugene Chua                           | Hiruna Jayamanne                      |
 | --------- | --------------------------------------- | --------------------------------------------------- | ------------------------------------- | ------------------------------------- |
-| Portfolio | [etinaude.dev](https://etinaude.dev)    | [mattm.nz](https://mattm.nz/)                       | [echua.top](https://echua.top)        | [hiru.dev/](https://hiru.dev/)        |
+| Portfolio | [etinaude.dev](https://etinaude.dev)    | [mattm.nz](https://mattm.nz/)                       | [echua.top](https://echua.top)        | [hiru.dev](https://hiru.dev/)         |
 | GitHub    | [etinaude](https://github.com/etinaude) | [DarkMatterMatt](https://github.com/DarkMatterMatt) | [luorixo](https://github.com/luorixo) | [HiruNya](https://github.com/HiruNya) |
 
 ### GSDC
