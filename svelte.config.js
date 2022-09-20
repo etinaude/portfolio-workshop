@@ -1,8 +1,5 @@
+import adapter from '@sveltejs/adapter-auto';
 import preprocess from 'svelte-preprocess';
-import json from '@rollup/plugin-json'
-import adapter from '@sveltejs/adapter-netlify';
-
-
 
 /** @type {import('@sveltejs/kit').Config} */
 const config = {
@@ -11,23 +8,8 @@ const config = {
 	preprocess: preprocess(),
 
 	kit: {
-		adapter: adapter(),
-
-		files: { assets: 'src/content' },
-
-		// Override http methods in the Todo forms
-		methodOverride: {
-			allowed: ['PATCH', 'DELETE']
-		},
-
-		paths: {
-			base: process.env.SVELTE_BASE_PATH ?? '',
-		},
-	},
-	plugins: [
-		json({
-			compact: true
-		})]
+		adapter: adapter()
+	}
 };
 
 export default config;
