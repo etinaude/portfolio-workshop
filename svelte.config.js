@@ -8,6 +8,7 @@ const config = {
 	preprocess: preprocess(),
 
 	kit: {
+		files: { assets: 'src/content' },
 		adapter: adapter()
 	}
 };

@@ -4,7 +4,8 @@
 
 <script lang="ts">
   import Card from "$lib/card.svelte";
-  import projectsImport from "../content/projects.json";
+	import Header from "$lib/header.svelte";
+  import projectsImport from "../../content/projects.json";
 
   const largeProjects = projectsImport.slice(0, 6);
   const smallProjects = projectsImport.slice(6);
@@ -14,6 +15,9 @@
   <title>Etienne Naude</title>
   <meta name="description" content="Etienne Naude projects" />
 </svelte:head>
+
+
+<Header />
 
 <section id="projects">
   <h2>Projects</h2>
