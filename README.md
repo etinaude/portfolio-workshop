@@ -54,6 +54,10 @@ All the code is provided so you can also edit the templates to make them your ow
 
 ![Template 3](./resources/template3.gif)
 
+### Template 4
+
+![Template 4](./resources/template4.gif)
+
 ## 🚀 Hosting with GitHub Pages
 
 1. Go to `https://github.com/<YOUR USERNAME>/portfolio-workshop/settings/pages`.
