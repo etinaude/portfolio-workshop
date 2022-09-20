@@ -1,4 +1,4 @@
-import adapter from '@sveltejs/adapter-auto';
+import adapter from '@sveltejs/adapter-netlify';
 import preprocess from 'svelte-preprocess';
 
 /** @type {import('@sveltejs/kit').Config} */
@@ -10,7 +10,11 @@ const config = {
 	kit: {
 		files: { assets: 'src/content' },
 		adapter: adapter()
-	}
+	},
+
+	paths: {
+		base: process.env.SVELTE_BASE_PATH ?? '',
+	},
 };
 
 export default config;
