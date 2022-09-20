@@ -2,7 +2,7 @@
   import { base } from '$app/paths';
   import { page } from "$app/stores";
 
-  export let entries = {"Home": '', "Projects": '/projects', "Contact": '#cta'};
+  export let entries = {"Home": '/', "Projects": '/projects', "Contact": '/#cta'};
 </script>
 
 <header>

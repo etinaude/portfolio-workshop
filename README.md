@@ -54,6 +54,10 @@ All the code is provided so you can also edit the templates to make them your ow
 
 ![Template 3](./resources/template3.gif)
 
+### Template 4
+
+![Template 4](./resources/template4.gif)
+
 ## 🚀 Hosting with GitHub Pages
 
 1. Go to `https://github.com/<YOUR USERNAME>/portfolio-workshop/settings/pages`.
@@ -75,7 +79,7 @@ Using [GitHub Actions](https://github.com/features/actions), we create an action
 
 |           | Etienne Naude                           | Matt Moran                                          | Eugene Chua                           | Hiruna Jayamanne                      |
 | --------- | --------------------------------------- | --------------------------------------------------- | ------------------------------------- | ------------------------------------- |
-| Portfolio | [etinaude.dev](https://etinaude.dev)    | [mattm.nz](https://mattm.nz/)                       | [echua.top](https://echua.top)        | [hiru.dev/](https://hiru.dev/)        |
+| Portfolio | [etinaude.dev](https://etinaude.dev)    | [mattm.nz](https://mattm.nz/)                       | [echua.top](https://echua.top)        | [hiru.dev](https://hiru.dev/)         |
 | GitHub    | [etinaude](https://github.com/etinaude) | [DarkMatterMatt](https://github.com/DarkMatterMatt) | [luorixo](https://github.com/luorixo) | [HiruNya](https://github.com/HiruNya) |
 
 ### GSDC
