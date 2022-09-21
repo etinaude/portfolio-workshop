@@ -8,9 +8,9 @@
   import { fade } from "svelte/transition";
 
   import Card from "$lib/card.svelte";
-  import projectsImport from "../content/projects.json";
-  import info from "../content/general-info.json";
-  import experience from "../content/experience.json";
+  import projectsImport from "$lib/../content/projects.json";
+  import info from "$lib/../content/general-info.json";
+  import experience from "$lib/../content/experience.json";
   import Header from "$lib/header.svelte";
 
   const projects = projectsImport.slice(0, 3);

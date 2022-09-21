@@ -3,11 +3,9 @@
 </script>
 
 <script lang="ts">
-  import { onMount } from "svelte";
-
   import FlipCard from "$lib/flipCard.svelte";
-  import projects from "../content/projects.json";
-  import info from "../content/general-info.json";
+  import projects from "$lib/../content/projects.json";
+  import info from "$lib/../content/general-info.json";
 </script>
 
 <svelte:head>

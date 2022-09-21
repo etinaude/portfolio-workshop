@@ -41,6 +41,11 @@ jobs:
           # Remove this if hosting at the domain root.
           SVELTE_BASE_PATH: /${{ github.event.repository.name }}
 
+      - name: Copy index.html to 404.html
+        run: |
+          cd ./build
+          [ -f ./404.html ] || cp ./index.html ./404.html
+
       - name: Disable default Jekyll integration
         run: touch ./build/.nojekyll
 

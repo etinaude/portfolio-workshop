@@ -9,9 +9,15 @@
   <nav>
     <ul>
       {#each Object.entries(entries) as [entryKey, entryValue]}
-        <li class:active={$page.url.pathname === base + entryValue}>
-          <a sveltekit:prefetch href={base + entryValue}>{entryKey}</a>
-        </li>
+        {#if entryValue.startsWith("#")}
+          <li class:active={$page.url.hash === entryValue}>
+            <a sveltekit:prefetch href={entryValue}>{entryKey}</a>
+          </li>
+        {:else}
+          <li class:active={$page.url.pathname === base + entryValue}>
+            <a sveltekit:prefetch href={base + entryValue}>{entryKey}</a>
+          </li>
+        {/if}
       {/each}
     </ul>
   </nav>
